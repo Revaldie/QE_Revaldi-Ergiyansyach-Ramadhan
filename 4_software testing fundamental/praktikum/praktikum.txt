@@ -1,0 +1,5 @@
+task halaman 28
+1. pada hascode tutorial entity setelah dilakukan testing diperoleh line coverge 67% yang berarti library memperkenalkan 9 mutants dari 3 yang berhasil dan 6 yang gagal serta mutation coveragenya 67% dimana mutant yang diperkenalkan 3 dari 2 yang gagal dan 1 yang berhasil.dimana pada hascode tutorial service diperoleh line coverage 100% yang berarti sudah berhasil dan mutation coverage 75% dimana produces mutants berisi 4 yang gagal 1 dan yang berhasil 3 jadi coverage nya 75 %
+
+task 29
+2. pada public int add merupakan fungsi tambahan untuk operasi menambah dimana variabel a dan b di deskripsikan sebagai integer, begitu pun dengan int substract yang berarti pengurangan, pada code tersebut dilakukan operasi penambahan dan pengurangan pada variabel a dan b dengan mengembalikan nilai dari variabel c itu sendiri
