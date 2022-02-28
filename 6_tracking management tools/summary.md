@@ -1,0 +1,7 @@
+Tracking management tools adalah sebuah software yang digunakan untuk merancang sebuah proyek agar bisa digunakan secara efektif seperti jira,tracker,celo dsb. 
+
+Jira adalah salah satu alat bantu yang berfungsi untuk melacak bugs, issue tracking, dan project management  
+
+Ada fitur test assingment pada jira sendiri di lengkapi dengan antar muka mengenai workflow yang di jalankan hal ini membuat tim atau anggota tim dapat memperhatikan progess project tersebut yang kedua ada crum and comebanboard suatu metode yang digunakan untuk memperjelas projek dengan fitur ini suatu tim dapat melakukan brainstorming sehingga setiap anggota tim dapat melakukan kolaborasi antar tim kerjanya tidak hanya itu anggota  tim dapat mengetahui kesalahan dari tim yang lain yang ketiga ada roadmap yang dapat mengetahui anggota tim fitur kedepannya,dengan adanya roadmap anggota tim bisa lebih fokus akan tugasnya sedangkan untuk leader dapat memperhatikan anggotanya. Connectivitas dengan aplikasi lainya pada jira ini tersambung ke beberapa aplikasi tak dapat di pungkiri kita bekerja itu tidak hanya dari satu aplikasi saja bisa dari beberapa aplikasi. Adanya laporan atau reporting  
+
+pada tugas kali ini juga kita disuru mencara bug 5 ada sedikit kendala yaitu ketika saya akan membuat tugasnya terjadi beberapa masalah yang saya tidak mengerti setlah saya uinstall masalah terselsaikan 
