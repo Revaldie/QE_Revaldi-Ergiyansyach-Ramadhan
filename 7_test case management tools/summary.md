@@ -1,0 +1,7 @@
+Tets case management tools merupakan software yang digunakan oleh software tester untuk menyimpan informasi terkait bagaimana pengujian produk di lakukan ,perencanaan kegiatan serta dokumen yang akan kita kerjakan laporan kegiatan dan penjaminan kualiatas produk   
+
+Kenapa kita membutuhkan test case management tools karena ada plan and estimate pada fitur test case management tools pada plan dan estimate yang kita buat akan muncul pada sebuah testplan dimana dalam test plan sendiri berisi muncul test plan dan fitur apa saja yang di gunakan yang kedua ada monitoring dan controling kita dapat memonitoring proses collecting, reporting serta recording selain itu kita juga dapat mengontrol data data pada satu tempat yang terakhir atau yang ketiga ada reporting and integrate with another tools kita tidak perlua lagi membuat document report dan dapat menghubungkan ke berbagai tools seperti jira dll  
+
+Ada beberapa contoh dari kind of test case management tools seperti test rail,test link, zphyr, qtesst,practitest dan tclab 
+
+pada praktikum ini saya membuat tentang test case management dari website testrail disitu kita harus membuat testcase managemen dari website todoist.com membuat test case positif dan negatif dari fitur todoist.com tidak ada kesulitan dari tugas praktikum ini tetapi kemarin terjadi kendala maintenance pada server testrailnya jadi agak susah membuat tugasnya 
