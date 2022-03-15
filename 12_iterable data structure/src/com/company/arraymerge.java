@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Arrays;
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 import java.util.Set;
 
 public class arraymerge {
@@ -12,7 +12,7 @@ public class arraymerge {
     }
 
     public static void mergeUniqueValues(String[] arr1, String[] arr2) {
-        Set noDuplicateSet = new LinkedHashSet();
+        Set noDuplicateSet = new HashSet();
         noDuplicateSet.addAll(Arrays.asList(arr1));
         noDuplicateSet.addAll(Arrays.asList(arr2));
 
