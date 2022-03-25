@@ -1,0 +1,16 @@
+Dalam pengembangan suatu sistem ada methodology yang bernama TDD (Test Driven Development), yaitu adalah methodology pengembangan dimana kita mengutamakan komponen-komponen yang akan di test untuk membuat suatu sistem yang baik untuk Stakeholder/Customer. Tetapi ada juga methodology lain yang kebalikan dari TDD, ia berfokus kepada “Behavior” sebuah sistem, methodology tersebut adalah BDD (Behavior Driven Development). “Behavior” dalam konteks ini adalah hal-hal yang Stakeholder/Customer harapkan dapat dilakukan oleh suatu sistem. “Behavior” juga dapat dibilang sebagai kontrak, contoh: kita ditugaskan membuat mesin ATM. Maka sebagai Team yang mengimplentasi Behavior Driven Development  hal pertama yang kita lakukan adalah membuat suatu Statements yang berisikan Context (Starting State), Event (Apa yang User lakukan), Outcome (Apa yang diharapkan). 
+Purpose
+Dalam proses pengembangan sebuah sistem, terkadang terdapat gap antara technical stakeholders dan business stakeholders terkait dengan:
+Pemahaman technical stakeholders (developer) mengenai kebutuhan bisnis dari sistem yang dibangun, dan
+Pemahaman business stakeholders mengenai isu teknis dari business requirements yang diberikan.
+BDD memiliki tujuan utama untuk meningkatkan komunikasi dan kolaborasi antara seluruh stakeholders — tim bisnis maupun teknikal — yang terlibat dalam pengembangan sistem. Hal ini dapat membantu memastikan bahwa:
+Fitur-fitur dalam sistem dapat dipahami dengan baik oleh seluruh anggota tim. Komunikasi yang baik dapat menyatukan persepsi stakeholders yang berbeda-beda dalam suatu pemahaman dan ekspektasi yang sama.
+Fitur-fitur dalam sistem dapat memenuhi kebutuhan pengguna dan menghasilkan business value.
+Concept
+Prinsip dasar dari BDD adalah mendeskripsikan behavior dari sebuah sistem tanpa melibatkan penjelasan implementasinya secara rinci. Terdapat pemisahan antara keduanya.Dalam pendekatan BDD, seluruh stakeholders (technical & non-technical) saling berkolaborasi untuk mendeskripsikan kebutuhan pengguna dan kebutuhan fungsional (behavior) sistem, yang dituliskan melalui feature files. Deskripsi yang ada dalam feature files berperan sebagai test logic, yang kemudian akan menjadi dasar bagi Quality Assurance (QA) dalam menuliskan test script untuk implementasi pengujian, dan dasar bagi developer dalam menuliskan implementation code untuk membangun sistem.
+Feature files pada BDD dituliskan menggunakan bahasa Gherkin, dengan format berbahasa Inggris yang mudah dipahami oleh siapa pun — terlepas dari technical knowledge yang dimiliki. Dengan demikian, non-technical stakeholders dapat tetap memahami test logic tanpa perlu memahami implementasi menggunakan kode pemrograman yang lebih kompleks. Begitu pula sebaliknya, technical stakeholders atau developer dapat turut memahami aspek bisnis dari sistem yang mereka implementasikan.
+Writing Tests in BDD
+Secara mendasar, terdapat tiga tahapan untuk melakukan test dalam BDD:
+Tahap 1 — Menentukan user stories; untuk menjelaskan kebutuhan pengguna dan fungsionalitas sistem yang diharapkan
+Tahap 2 — Menuliskan skenario (dalam feature files, menggunakan Gherkin) berdasarkan user stories
+Tahap 3 — Mengimplementasikan test script (dalam step files) berdasarkan skenario
