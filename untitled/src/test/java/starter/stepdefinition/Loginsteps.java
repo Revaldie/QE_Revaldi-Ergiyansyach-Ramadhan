@@ -34,5 +34,3 @@ public class Loginsteps {
     public void userseehomepage(){
         System.out.println("user see home page");
     }
-
-}
