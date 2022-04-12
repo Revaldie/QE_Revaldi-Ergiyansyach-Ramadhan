@@ -2,7 +2,7 @@ package starter.user;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import org.jruby.ir.operands.Operand;
+
 
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.Matchers.equalTo;
