@@ -142,7 +142,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"As  User I Want To Get The Result Of Sum","type":"feature","href":"1da1a360e5ab7693e812fea0e4f8ac298543039b7fdb83f9b96c6ac2321622e4.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-exclamation-triangle-fill error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"As  User I Want To Get The Result Of Sum","type":"feature","href":"1da1a360e5ab7693e812fea0e4f8ac298543039b7fdb83f9b96c6ac2321622e4.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -212,7 +212,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-04-2022 22:34</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-04-2022 22:58</span>
     <br style="clear:left"/>
 </div>
 
@@ -295,7 +295,7 @@
                                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                                href="e888257823d0829d2449e5f19d81fd288f9e9c2cf6fb18b72d7c579ff4ea9a23.html"
                                                                                                title="View test results">
-                                                                                                <a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a>
+                                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                                                                                 </a>
 
 
@@ -315,11 +315,11 @@
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="7a78e65b-2e80-4708-a13c-c585d0ed9647"></a>
+                                                        <a name="08fb2b2e-13c0-4e0a-a3ea-a0d6ee315c2a"></a>
 
 
                                                             <div class="scenario-docs card" id="f9aa2d79c16a48a462e1052c51e7448c875a7c2fab7306f45d27d56f8cc93ded">
-                                                                <div class="scenario-docs card-header error"
+                                                                <div class="scenario-docs card-header success"
                                                                      style="min-height:1.5em;">
                                                                     <div>
                                                             <span class="scenario-heading">
@@ -329,7 +329,7 @@
                                                                         <span class="scenario-result-icon">
                                                                 
 
-                                                                                <a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a>
+                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
                                                             </span>
                                                                     </div>
                                                                 </div>
@@ -359,10 +359,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
+                                                    var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Aborted tests (automated)', value: 0}, {meta: 'Aborted tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Aborted tests (automated)', value: 0}, {meta: 'Aborted tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -401,11 +401,12 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                                <td class="aggregate-result-count"><i
-                                                                            class='bi bi-check-circle-fill success-icon'></i>&nbsp;Passing
+                                                                <td class="aggregate-result-count">
+                                                                    <a href="ff18a01b55415dd7970729c81985d900ea395998a1530083a7922906a924e872.html"><i
+                                                                                class='bi bi-check-circle-fill success-icon'></i>&nbsp;Passing</a>
                                                                 </td>
-                                                            <td class="automated-stats">0</td>
-                                                            <td class="automated-stats"> </td>
+                                                            <td class="automated-stats">1</td>
+                                                            <td class="automated-stats">100%</td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -436,8 +437,8 @@
                                                             <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
-                                                                    <td colspan="3"><a href="31bd991a616431670cd471d8d7c288d4d918f44e3bf289c231379b11cef60a5b.html"><i
-                                                                                    class='bi bi-x-circle failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                    <td colspan="3"><i
+                                                                                class='bi bi-x-circle failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                     </td>
 
                                                         </tr>
@@ -451,11 +452,11 @@
                                                             <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="01d4a323a29ac3548ab01456bebf0445cfd21b877aeb87510ef9581ba4863154.html"><i
-                                                                                class='bi bi-exclamation-triangle-fill error-icon'></i>&nbsp;Broken</a>
+                                                                    <i
+                                                                            class='bi bi-exclamation-triangle-fill error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">100%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -490,13 +491,13 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>19-04-2022 22:34:50 +0800</td>
-                                                            <td>19-04-2022 22:35:13 +0800</td>
-                                                            <td>23s</td>
-                                                            <td>23s</td>
-                                                            <td>23s</td>
-                                                            <td>23s</td>
-                                                            <td>23s</td>
+                                                            <td>19-04-2022 22:58:09 +0800</td>
+                                                            <td>19-04-2022 22:58:22 +0800</td>
+                                                            <td>13s</td>
+                                                            <td>13s</td>
+                                                            <td>13s</td>
+                                                            <td>13s</td>
+                                                            <td>13s</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -520,16 +521,16 @@
                                                             </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr class="scenario-result ERROR">
+                                                                <tr class="scenario-result SUCCESS">
                                                                     <td>
                                                                             <a href="e888257823d0829d2449e5f19d81fd288f9e9c2cf6fb18b72d7c579ff4ea9a23.html">pengurangan</a>
                                                                     </td>
                                                                     <td>6</td>
-                                                                    <td>22:34:50</td>
-                                                                    <td>23s 043ms</td>
+                                                                    <td>22:58:09</td>
+                                                                    <td>13s 567ms</td>
                                                                     <td>
-                                                                            <a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
+                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>

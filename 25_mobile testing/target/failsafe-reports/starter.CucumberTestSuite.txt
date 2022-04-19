@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 27.075 sec <<< FAILURE! - in starter.CucumberTestSuite
-user on calculator page(pengurangan)  Time elapsed: 22.842 sec  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: calculator (tried for 15 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5EG9UC4', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\alta folder\25_mobile te..., appPackage: com.example.calculator, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\alta folder\25_mobile te..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 100, noReset: true, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 100, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c8c14dc1-8b2d-432d-beee-7acd17f5f112
-*** Element info: {Using=accessibility id, value=calculator}
-
-pengurangan  Time elapsed: 0.001 sec  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: calculator (tried for 15 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5EG9UC4', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\alta folder\25_mobile te..., appPackage: com.example.calculator, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\alta folder\25_mobile te..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 100, noReset: true, platformName: android}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 100, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c8c14dc1-8b2d-432d-beee-7acd17f5f112
-*** Element info: {Using=accessibility id, value=calculator}
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.86 sec - in starter.CucumberTestSuite

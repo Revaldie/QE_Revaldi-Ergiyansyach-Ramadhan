@@ -52,7 +52,7 @@ public class Calculatorpage extends BasePageObject {
     }
 
     private By Tittle(){
-        return MobileBy.AccessibilityId("calculator");
+        return MobileBy.AccessibilityId("Calculator");
     }
 
     @Step
