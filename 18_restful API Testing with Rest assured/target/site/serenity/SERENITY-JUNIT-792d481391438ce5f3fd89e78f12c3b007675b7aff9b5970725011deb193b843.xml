@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="User As an admin,I want to see list of user, So that i can create new user" skipped="0" tests="1" time="2.83" timestamp="2022-04-23 10:27:23"><testcase name="GET - As admin i have be able to get detail user"/></testsuite>
