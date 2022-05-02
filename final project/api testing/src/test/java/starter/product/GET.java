@@ -29,16 +29,12 @@ public class GET {
         Response response = SerenityRest.lastResponse();
 
         String name = response.getBody().jsonPath().get("data.Name[0]");
-        Assert.assertEquals(name, "Pepaya");
+        Assert.assertEquals(name, "Teleskop");
 
     int ID = response.getBody().jsonPath().get("data.ID[0]");
-        Assert.assertEquals(ID, 110);
+        Assert.assertEquals(ID, 187);
 
 
-    }
-
-
-    public void validateHttpResponseCode404() {
     }
 }
 

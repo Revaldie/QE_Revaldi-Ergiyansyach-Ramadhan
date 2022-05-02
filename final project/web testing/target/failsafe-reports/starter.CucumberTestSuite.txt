@@ -1,31 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 49.157 s <<< FAILURE! - in starter.CucumberTestSuite
-As user I want to order “pepaya”.order pepaya  Time elapsed: 2.93 s  <<< ERROR!
-net.serenitybdd.core.exceptions.SerenityManagedException
-
-starter.CucumberTestSuite  Time elapsed: 49.157 s  <<< ERROR!
-net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate configuration report
-Caused by: java.util.concurrent.ExecutionException: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@214279d2
-Caused by: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@214279d2
-Caused by: java.lang.RuntimeException: Failed to merge template: Failed to process FreeMarker template
-Caused by: net.thucydides.core.reports.templates.TemplateMergeException: Failed to process FreeMarker template
-Caused by: freemarker.core._TemplateModelException: 
-Java method "net.thucydides.core.model.TestOutcome.hasScreenshots()" threw an exception when invoked on net.thucydides.core.model.TestOutcome object [freemarker.core._DelayedJQuote.toString() failed: java.lang.StackOverflowError]; see cause exception in the Java stack trace.
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #if testOutcome.hasScreenshots()  [in template "freemarker/default.ftl" in macro "step_details" at line 534, column 21]
-	- Reached through: @step_details step=step step_number=s...  [in template "freemarker/default.ftl" in macro "write_step" at line 377, column 17]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	- Reached through: @write_step step=nestedStep step_numb...  [in template "freemarker/default.ftl" in macro "write_step" at line 385, column 41]
-	... (Had 511 more, hidden for tersenes)
-----
-Caused by: java.lang.StackOverflowError
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.851 s <<< FAILURE! - in starter.CucumberTestSuite
+EMPTY_NAME.(EMPTY_NAME)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException: No BaseStepListener has been registered - are you running your test using the Serenity runners?
 

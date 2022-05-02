@@ -9,9 +9,11 @@ import starter.pages.OrderPage;
 
 public class OrderSteps {
     @Steps
+
     OrderPage orderPage;
     @Given("User on Home page")
     public void useronhomepage(){
+        orderPage.openPage();
         orderPage.homepage();
     }
     @When("As a user click beli pepaya")
@@ -22,9 +24,11 @@ public class OrderSteps {
     public void userclickbasket(){
         orderPage.userClickBasket();
     }
-    @And("User Pay pepaya")
-    public void paypepaya(){
-        orderPage.clickbayar();
-    }
 
+
+    @And("user pay pepaya")
+    public void userPayPepaya() {
+    }
 }
+
+

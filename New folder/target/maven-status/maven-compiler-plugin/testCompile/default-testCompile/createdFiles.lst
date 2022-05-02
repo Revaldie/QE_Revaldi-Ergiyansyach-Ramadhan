@@ -1,0 +1,5 @@
+starter\CucumberTestSuite.class
+starter\product\Get.class
+starter\stepdefinitions\ProductSteps.class
+starter\categories\GET.class
+starter\stepdefinitions\CategoriesSteps.class

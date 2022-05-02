@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user, I want to see home page, So that i can buy books","As a user, i able to login successfully","SUCCESS","2022-05-01T11:45:09.1539219+08:00[Asia/Makassar]","0.0","14.01"
-"As user I want to order “pepaya”","order pepaya","ERROR","2022-05-01T11:45:24.1620781+08:00[Asia/Makassar]","0.0","2.92"
-"As a user i want to register for my account so that i can go shop","As a user i want registered successfully","SUCCESS","2022-05-01T11:45:27.0987452+08:00[Asia/Makassar]","0.0","5.14"
+"As a user, I want to see home page, So that i can buy books","As a user, i able to login successfully","SUCCESS","2022-05-01T20:30:53.9424435+08:00[Asia/Makassar]","0.0","14.21"
+"As user I want to order “pepaya”","order pepaya","SUCCESS","2022-05-01T20:31:09.2534471+08:00[Asia/Makassar]","0.0","3.58"
+"As a user i want to register for my account so that i can go shop","As a user i want registered successfully","SUCCESS","2022-05-01T20:31:13.4052168+08:00[Asia/Makassar]","0.0","5.63"
