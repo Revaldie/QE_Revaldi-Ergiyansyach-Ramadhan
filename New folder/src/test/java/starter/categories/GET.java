@@ -18,8 +18,8 @@ public class GET {
         return url + "/cat";
     }
 
-    @Step("input GET as a method")
-    public void inputGETAsAMethod(){
+    @Step("input GET as a methoded")
+    public void inputGETAsAMethoded(){
         SerenityRest.given().get(adminAddUrl());
 
     }

@@ -26,8 +26,9 @@ public class ProductSteps {
         get.responseshowOK();
     }
 
-    @And("input GET as a method")
-    public void inputGETasamethod(){
-        get.inputGetasamethod();
+    @And("input get as a methoded")
+    public void inputgetasamethoded(){
+
+        get.inputGetasamethoded();
     }
 }

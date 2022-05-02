@@ -24,7 +24,7 @@ public class CategoriesSteps {
     @And("input GET as a method")
     public void inputGETAsAMethod() {
 
-        get.inputGETAsAMethod();
+        get.inputGETAsAMethoded();
     }
 
     @And("admin click send")

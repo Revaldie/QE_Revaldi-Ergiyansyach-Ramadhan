@@ -5,7 +5,6 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
-import static io.restassured.RestAssured.given;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class Get {
@@ -20,7 +19,7 @@ public class Get {
         return url + "/products";
     }
     @Step("input GET as a method")
-    public void inputGetasamethod(){
+    public void inputGetasamethoded(){
         SerenityRest.given().get(adminaddedurl());
     }
     @Step("admin click send")
@@ -34,7 +33,12 @@ public class Get {
     }
     @Step("Response shows all products")
     public void responseshowallproducts(){
+        Response response = SerenityRest.lastResponse();
 
+        String name = response.getBody().jsonPath().get("data.Name[0]");
+        Assert.assertEquals(name, "Teleskop");
 
+        int ID = response.getBody().jsonPath().get("data.ID[0]");
+        Assert.assertEquals(ID, 187);
     }
 }
