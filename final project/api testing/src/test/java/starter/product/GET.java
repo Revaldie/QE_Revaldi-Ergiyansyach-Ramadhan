@@ -29,10 +29,10 @@ public class GET {
         Response response = SerenityRest.lastResponse();
 
         String name = response.getBody().jsonPath().get("data.Name[0]");
-        Assert.assertEquals(name, "Teleskop");
+        Assert.assertEquals(name, "Tensi Darah Elektrik");
 
     int ID = response.getBody().jsonPath().get("data.ID[0]");
-        Assert.assertEquals(ID, 187);
+        Assert.assertEquals(ID, 368);
 
 
     }

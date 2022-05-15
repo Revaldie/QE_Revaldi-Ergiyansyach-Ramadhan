@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: As a admin i want to check all my products so that i can manage
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.15 s - in As a admin i want to check all my products so that i can manage

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: As a user i want to categories product so that i can search easily
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.115 s - in As a user i want to categories product so that i can search easily

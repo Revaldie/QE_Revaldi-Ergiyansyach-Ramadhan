@@ -5,5 +5,7 @@ D:\alta folder\final project\api testing\src\test\java\starter\product\GET.java
 D:\alta folder\final project\api testing\src\test\java\starter\register\Post.java
 D:\alta folder\final project\api testing\src\test\java\starter\stepdefinitions\Registersteps.java
 D:\alta folder\final project\api testing\src\test\java\starter\CucumberTestSuite.java
+D:\alta folder\final project\api testing\src\test\java\starter\transaction\Post.java
 D:\alta folder\final project\api testing\src\test\java\starter\categories\Get.java
 D:\alta folder\final project\api testing\src\test\java\starter\stepdefinitions\Loginsteps.java
+D:\alta folder\final project\api testing\src\test\java\starter\stepdefinitions\TransactionSteps.java

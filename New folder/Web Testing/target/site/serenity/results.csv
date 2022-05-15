@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user, I want to login so that i can see my homepage","As a user, i able to login successfully","SUCCESS","2022-05-11T12:12:04.5440622+08:00[Asia/Makassar]","0.0","16.61"
+"As user I want to order product so that i can have it","As user i want to order ""tensi darah elektrik""","SUCCESS","2022-05-11T12:12:22.6437365+08:00[Asia/Makassar]","0.0","4.54"
+"user can see detail or rating of products","user see detail or rating tensi darah elektrik","SUCCESS","2022-05-11T12:12:28.9722447+08:00[Asia/Makassar]","0.0","3.75"
+"As a user i want to register for my account so that i can go shop","As a user i want registered successfully","SUCCESS","2022-05-11T12:12:35.068572+08:00[Asia/Makassar]","0.0","6.0"
+"as a user choose the desired category such as the health category","as a user choose helath category","SUCCESS","2022-05-11T12:12:42.4585493+08:00[Asia/Makassar]","0.0","4.28"

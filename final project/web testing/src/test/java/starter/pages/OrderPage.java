@@ -11,13 +11,13 @@ public class OrderPage extends PageObject {
         return By.xpath("//div[contains(@class,'v-main__wrap')]");
     }
 
-    private By clickpepaya(){
-        return By.xpath("//span[contains(@class,'v-btn__content')]/parent::button");
+    private By clicktensidarahelektrik(){
+        return By.xpath("(//span[text()= 'Beli']/parent::button)[1]");
     }
     private By userclickbasket(){
         return By.xpath("(//button[contains(@class,'v-btn v-btn--icon v-btn--round theme--dark v-size--default')])[1]");
     }
-    private By userpaypepaya(){
+    private By userpaytensidarahelektrik(){
         return By.xpath("//button[contains(@class,'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large primary')]");
     }
     @Step
@@ -29,8 +29,8 @@ public class OrderPage extends PageObject {
         $(seehomepage()).isDisplayed();
     }
     @Step
-    public void validateclickpepaya(){
-        $(clickpepaya()).click();
+    public void validateclicktensidarahlistrik(){
+        $(clicktensidarahelektrik()).click();
     }
     @Step
     public void userClickBasket(){
@@ -38,7 +38,7 @@ public class OrderPage extends PageObject {
     }
     @Step
     public void paypepaya(){
-        $(userpaypepaya()).click();
+        $(userpaytensidarahelektrik()).click();
     }
 
 }

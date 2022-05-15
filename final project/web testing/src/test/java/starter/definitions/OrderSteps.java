@@ -16,9 +16,9 @@ public class OrderSteps {
         orderPage.openPage();
         orderPage.homepage();
     }
-    @When("As a user click beli pepaya")
-    public void userclickbelipepaya(){
-        orderPage.validateclickpepaya();
+    @When("As a user click beli tensi darah elektrik")
+    public void userclickbelitensidarahelektrik(){
+        orderPage.validateclicktensidarahlistrik();
     }
     @Then("as user click basket")
     public void userclickbasket(){
@@ -26,8 +26,9 @@ public class OrderSteps {
     }
 
 
-    @And("user pay pepaya")
-    public void userPayPepaya() {
+    @And("user pay tensi darah elektrik")
+    public void userPaytensidarahelektrik() {
+        orderPage.paypepaya();
     }
 }
 

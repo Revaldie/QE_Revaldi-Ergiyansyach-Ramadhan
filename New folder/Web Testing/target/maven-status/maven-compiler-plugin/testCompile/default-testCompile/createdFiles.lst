@@ -1,0 +1,12 @@
+starter\definitions\RatingProductSteps.class
+starter\definitions\RegisterSteps.class
+starter\pages\HomePage.class
+starter\definitions\OrderSteps.class
+starter\pages\SelectCategoryPage.class
+starter\definitions\LoginSteps.class
+starter\pages\RatingProductPage.class
+starter\CucumberTestSuite.class
+starter\pages\LoginPage.class
+starter\definitions\SelectCategorySteps.class
+starter\pages\RegisterPage.class
+starter\pages\OrderPage.class
