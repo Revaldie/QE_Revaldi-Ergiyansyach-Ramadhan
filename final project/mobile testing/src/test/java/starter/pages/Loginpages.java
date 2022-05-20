@@ -1,63 +1,64 @@
 package starter.pages;
 
+import io.appium.java_client.MobileBy;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 import test.automation.pageobject.BasePageObject;
 
 public class Loginpages extends BasePageObject {
-    private By homepage(){
-        return By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]");
-
-    }
-    private By loginpage(){
-        return By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View");
-
+    private By registerLink() {
+        return MobileBy.id("textViewLinkRegister");
     }
 
-    private By emailfield() {
-        return By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]");
-
+    private By loginButton() {
+        return MobileBy.xpath("//android.widget.Button[contains(@content-desc, 'Login')]");
     }
 
-    private By passwordfield(){
-        return By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]");
-
+    private By emailField() {
+        return MobileBy.xpath("//android.widget.EditText[contains(@text, 'Email')]");
     }
 
-    private By loginbutton(){
-        return By.xpath("//android.widget.Button[@content-desc=\"Login\"]");
+    private By passwordField() {
+        return MobileBy.xpath("//android.widget.EditText[contains(@text, 'Password')]");
     }
 
-    private By loginicon(){
-        return By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.Button");
+    private By userIcon() {
+        return MobileBy.xpath("//android.view.View[contains(@content-desc, 'Products')]/following-sibling::android.widget.Button");
+    }
 
+    private By toastMessage() {
+        return MobileBy.xpath("//android.view.View[@content-desc= 'Email atau password tidak valid.']");
     }
 
     @Step
-    public boolean onHomepage(){
-        return waitUntilVisible(homepage()).isDisplayed();
-    }
-    @Step
-    public boolean onLoginpage(){
-        return waitUntilVisible( loginpage()).isDisplayed();
+    public boolean isOnPage() {
+        onClick(userIcon());
+        return waitUntilPresence(loginButton()).isDisplayed();
     }
 
     @Step
-    public void inputEmail(){
-       onType(emailfield(), email);
+    public void tapRegisterLink() {
+        onClick(registerLink());
     }
+
     @Step
-    public void inputPassword(){
-       onType(passwordfield(), password);
+    public void inputEmail(String email) {
+        onClick(emailField());
+        onType(emailField(), email);
     }
+
     @Step
-    public void clickLoginIcon(){
-        onClick(loginicon());
+    public void inputPassword(String password) {
+        onClick(passwordField());
+        onType(passwordField(), password);
     }
+
     @Step
-    public void clickloginButton() {
-      onClick(loginbutton());
+    public void tapLoginButton() {
+        onClick(loginButton());
     }
+
+
 
 }
 

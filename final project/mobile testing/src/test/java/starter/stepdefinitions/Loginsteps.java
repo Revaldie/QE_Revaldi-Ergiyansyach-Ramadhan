@@ -5,42 +5,37 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import org.junit.Assert;
 import starter.pages.Loginpages;
 
 public class Loginsteps {
     @Steps
     Loginpages loginpages;
 
-    @Given("as user on the home page")
-    public void asuseronthehomepage() {
-        loginpages.onHomepage();
+    @Given("as user on loading screen home")
+    public void asuseronloadingscreenhome(){
+        Assert.assertTrue(loginpages.isOnPage());
+
+    }
+    @When("as a user input register account")
+    public void asauserinputregisteraccount(){
+        loginpages.inputEmail("revaldi132@gmail.com");
+    }
+    @And("user input paswword")
+    public void userinputpassword(){
+        loginpages.inputPassword("aldi1312");
+
+    }
+    @And("android user tap login button")
+    public void androidusertaploginbutton(){
+        loginpages.tapLoginButton();
 
     }
 
-    @When("as a user click icon on the right product")
-    public void asauserclickiconontherightproduct() {
-        loginpages.clickLoginIcon();
-
-    }
-
-    @When("user on the login page")
-    public void userontheloginpage() {
-        loginpages.onLoginpage();
+    @Then("android user see message is displayed")
+    public void androiduserseemessageisdisplayed(){
 
     }
 
 
-    @Then("user click login and user succses login")
-    public void userclickloginandusersuccseslogin() {
-    }
-
-    @And("user input {string} on password field")
-    public void userInputOnPasswordField(String arg0) {
-        loginpages.inputPassword();
-    }
-
-    @And("user input {string} on email field")
-    public void userInputOnEmailField(String arg0) {
-        loginpages.inputEmail();
-    }
 }

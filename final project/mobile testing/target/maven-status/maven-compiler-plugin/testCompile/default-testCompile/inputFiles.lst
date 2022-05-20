@@ -1,5 +1,6 @@
-D:\alta folder\25_mobile testing\src\test\java\starter\stepdefinitions\Pengurangansteps.java
-D:\alta folder\25_mobile testing\src\test\java\starter\pages\Calculatorpage.java
-D:\alta folder\25_mobile testing\src\test\java\starter\CucumberTestSuite.java
-D:\alta folder\25_mobile testing\src\test\java\starter\hooks\BaseDriverHooks.java
-D:\alta folder\25_mobile testing\src\test\java\starter\stepdefinitions\pembagiansteps.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\CucumberTestSuite.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\pages\Loginpages.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\stepdefinitions\Registersteps.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\pages\Registerpages.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\hooks\BaseDriverHooks.java
+D:\alta folder\final project\mobile testing\src\test\java\starter\stepdefinitions\Loginsteps.java
